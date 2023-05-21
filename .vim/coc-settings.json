@@ -1,0 +1,16 @@
+{
+  "Lua.workspace.library": [
+    "${3rd}/luassert/library",
+    "${3rd}/bee/library",
+    "${3rd}/lovr/library",
+    "${3rd}/luv/library",
+    "${3rd}/OpenResty/library",
+    "${3rd}/skynet/library"
+  ],
+  "Lua.runtime.version": "LuaJIT",
+  "Lua.diagnostics.globals": [
+    "ngx",
+    "packer"
+  ],
+  "Lua.diagnostics.workspaceDelay": -1
+}
