@@ -12,3 +12,5 @@ spotify
 yay
 coc
 nvim/plug/*
+spotifyd
+spotify-tui

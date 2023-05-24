@@ -60,6 +60,8 @@ let g:auto_save = 1
 
 Plug 'lewis6991/gitsigns.nvim' " OPTIONAL: for git status
 
+Plug 'norcalli/nvim-colorizer.lua'
+
 Plug 'mhinz/vim-startify'
 "Plug 'tomasky/bookmarks.nvim'
 Plug 'BenGH28/neo-runner.nvim', {'do': ':UpdateRemotePlugins'}
@@ -67,7 +69,6 @@ let g:runner_c_compiler = 'gcc'
 let g:runner_cpp_compiler = 'g++'
 let g:runner_c_options = '-std=c99 -Wall'
 let g:runner_cpp_options = '-std=c++11 -Wall'
-
 
 
 call plug#end()
