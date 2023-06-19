@@ -16,4 +16,4 @@ bspc config focused_border_color    '#a97594'
 
 systemctl --user import-environment DISPLAY
 xsetroot -cursor_name left_ptr
-feh --bg-scale ~/.config/bspwm/fondo.jpg
+feh --bg-scale ~/.config/bspwm/Bobo_esponja.png
