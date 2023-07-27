@@ -2,7 +2,6 @@
 
     "java.import.gradle.annotationProcessing.enabled":true,
     "java.import.gradle.enabled":true,
-    "ltex.language":"es-AR" ,
     
 "java.configuration.runtimes": [
   {

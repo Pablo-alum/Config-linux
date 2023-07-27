@@ -1,0 +1,14 @@
+
+.hora{
+all: unset;
+color: #E76161;
+font-family: Museo Sans;
+font-size:5rem;
+}
+
+.asistente{
+background-image: url("~/programar/eww/asistente.png");
+color: #E76161;
+font-family: Museo Sans;
+font-size:5rem;
+}
