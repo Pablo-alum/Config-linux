@@ -1,3 +1,6 @@
-sonido="$(amixer -c 0 get Master | tail -1 | awk '{print $4}' | sed 's/[^0-9]*//g')"
+volume_info=$(amixer  get Master) 
+
+volume=$(echo "$volume_info" | grep -oE '[0-9]+%' | head -n 1)
+
 amixer set Master 5%+
-notify-send "EL nivel de sonido es $sonido  " -a "Scrip"
+notify-send "EL nivel de sonido es $volume  " 

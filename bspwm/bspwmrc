@@ -14,11 +14,6 @@ bspc config focused_border_color    '#a97594'
 
 bspc rule -a eww-ventana layer=below state=floating sticky=on focus=off
 
-#bspc rule -a spotify desktop='^0' focus=on
-
-
 systemctl --user import-environment DISPLAY
 xsetroot -cursor_name left_ptr
-feh --bg-scale ~/.config/bspwm/paisaje.png
-~/programar/eww/eww/target/release/./eww open  hora
-picom --experimental-backend --config ~/.config/picom/picom.conf
+feh --bg-scale ~/.config/bspwm/SpiderMan.jpg
