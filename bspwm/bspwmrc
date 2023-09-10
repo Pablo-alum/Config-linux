@@ -16,4 +16,4 @@ bspc rule -a eww-ventana layer=below state=floating sticky=on focus=off
 
 systemctl --user import-environment DISPLAY
 xsetroot -cursor_name left_ptr
-feh --bg-scale ~/.config/bspwm/SpiderMan.jpg
+feh --bg-scale ~/.config/bspwm/fondo.jpg
